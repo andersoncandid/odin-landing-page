@@ -7,46 +7,41 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="header__logo">
-            <a href="#">Header Logo</a>
-          </li>
-          <li class="header__link">
-            <a href="#">header link one</a>
-          </li>
-          <li class="header__link">
-            <a href="#">header link two</a>
-          </li>
-          <li class="header__link">
-            <a href="#">header link three</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="top-content">
+      <header>
+        <nav>
+          <ul class="header__items">
+            <li class="header__logo">Header Logo</li>
+            <li class="header__link"><a href="#">header link one</a></li>
+            <li class="header__link"><a href="#">header link two</a></li>
+            <li class="header__link"><a href="#">header link three</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
-    <!-- Main Content -->
-    <main>
-      <!-- Hero -->
+    <!-- Hero -->
+    <div class="top-content">
       <section class="hero">
         <div class="hero__left">
-          <h1 class="hero__logo">This website is awesome</h1>
+          <h1>This website is awesome</h1>
           <p class="hero__text">
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </p>
+          <button class="btn hero__btn">Sign up</button>
         </div>
 
         <div class="hero__right">
           <img class="hero__img" src="#" alt="Hero Image" />
-          <button class="btn hero__btn">Sign up</button>
         </div>
       </section>
+    </div>
 
-      <!-- Information Cards -->
-      <section class="info">
-        <h2 class="info__header">Some random information.</h2>
+    <!-- Information Cards -->
+    <section class="info">
+      <h2>Some random information.</h2>
+      <div class="info__cards">
         <figure class="info__fig">
           <img class="info__fig--img" src="#" alt="" />
           <figcaption class="info__fig--caption">
@@ -71,27 +66,27 @@
             This is some subtext under an illustration or image
           </figcaption>
         </figure>
-      </section>
+      </div>
+    </section>
 
-      <!-- Quote -->
-      <blockquote class="quote" cite="#">
-        <p class="quote__text">
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it’s just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
-        </p>
-        <p class="quote__autor">-Thor, God of Thunder</p>
-      </blockquote>
+    <!-- Quote -->
+    <blockquote class="quote" cite="#">
+      <p class="quote__text">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it’s
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <p class="quote__autor">-Thor, God of Thunder</p>
+    </blockquote>
 
-      <!-- Call to Action -->
-      <section class="cta">
-        <h3 class="cta__logo">Call to action! It's time!</h3>
-        <p class="cta__text">
-          Sign up for our product by clinking that button right over there!
-        </p>
-        <button class="btn cta__btn">Sign up</button>
-      </section>
-    </main>
+    <!-- Call to Action -->
+    <section class="cta">
+      <h3>Call to action! It's time!</h3>
+      <p class="cta__text">
+        Sign up for our product by clinking that button right over there!
+      </p>
+      <button class="btn cta__btn">Sign up</button>
+    </section>
 
     <footer>
       <h4 class="footer__logo">Copyright © The Odin Project 2021</h4>

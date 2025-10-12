@@ -1,0 +1,131 @@
+/* Base */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* Utility components */
+
+.top-content,
+footer {
+  background-color: #1f2937;
+}
+
+.btn {
+  background-color: #3882f6;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 6px 26px 6px 26px;
+}
+
+/* Header */
+header {
+  margin: 0 15% 0 15%;
+}
+
+.header__items {
+  margin: 0px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header__link {
+  font-size: 18px;
+}
+
+/* Hero */
+.hero {
+  margin: 5rem 15% 5rem 15%;
+  display: flex;
+}
+
+.hero__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 5rem;
+  gap: 14px;
+}
+
+.hero__right {
+  flex: 1;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero__text {
+  margin: 0px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero__btn {
+  border: 0px;
+}
+
+/* Information Cards  */
+.info {
+  flex: 1;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.info__fig {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.info__fig--img {
+  border: 2px solid;
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+}
+
+.info__fig--caption {
+  text-align: center;
+  flex: 1;
+}
