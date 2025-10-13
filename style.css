@@ -28,6 +28,7 @@ footer {
 .btn {
   width: 150px;
   height: 40px;
+  color: #f9faf8;
   background-color: #3882f6;
   border: 2px solid;
   border-radius: 8px;
@@ -167,7 +168,7 @@ h2 {
 
 /* Call to Action Section */
 .cta {
-  min-width: 676px;
+  min-width: 680px;
   margin: 4rem 18rem 4rem 18rem;
   padding: 2rem 3rem;
   border-radius: 14px;
@@ -191,4 +192,5 @@ h3 {
 /* Footer */
 h4 {
   text-align: center;
+  color: #f9faf8;
 }
