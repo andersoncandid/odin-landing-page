@@ -60,6 +60,7 @@ header {
 .hero {
   margin: 5rem 15% 5rem 15%;
   display: flex;
+  justify-content: space-between;
 }
 
 .hero__left {
@@ -73,6 +74,9 @@ header {
 
 .hero__right {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 h1 {
@@ -92,40 +96,9 @@ h1 {
   border: 0px;
 }
 
+.hero__img {
+  max-width: 600px;
+  max-height: 200px;
+}
+
 /* Information Cards  */
-.info {
-  flex: 1;
-}
-
-h2 {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-  text-align: center;
-}
-
-.info__cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-}
-
-.info__fig {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  max-width: 150px;
-  max-height: 150px;
-}
-
-.info__fig--img {
-  border: 2px solid;
-  border-radius: 16px;
-  width: 150px;
-  height: 150px;
-}
-
-.info__fig--caption {
-  text-align: center;
-  flex: 1;
-}
