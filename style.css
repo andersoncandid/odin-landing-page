@@ -26,11 +26,14 @@ footer {
 }
 
 .btn {
+  width: 150px;
+  height: 40px;
   background-color: #3882f6;
-  border-radius: 6px;
+  border: 2px solid;
+  border-radius: 8px;
   font-size: 18px;
   font-weight: 900;
-  padding: 6px 26px 6px 26px;
+  padding: 4px 32px 4px 32px;
 }
 
 /* Header */
@@ -117,9 +120,7 @@ h2 {
 .info__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 48px;
+  justify-content: space-between;
 }
 
 .info__fig {
@@ -163,3 +164,29 @@ h2 {
   font-weight: 900;
 }
 
+/* Call to Action Section */
+.cta {
+  margin: 4rem 18rem 4rem 18rem;
+  padding: 2rem 3rem;
+  border-radius: 14px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.cta__text {
+  margin: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Footer */
+h4 {
+  text-align: center;
+}
