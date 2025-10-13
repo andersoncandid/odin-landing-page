@@ -1,6 +1,10 @@
 ## The Odin Project Landind Page
 
-Project to create a Landing Page using HTML and CSS fundamentals.
-
+Project to create a Landing Page.
+This task aims to consolidate the fundamental concepts of HTML and flexbox into CSS.
 ---
-[Project Page](https://www.theodinproject.com/lessons/foundations-landing-page)
+
+### The Odin Project - Foundations Course
+
+> Project Page
+> [Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page)
