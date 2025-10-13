@@ -1,8 +1,8 @@
 /* Base */
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -10,8 +10,8 @@ body {
 
 li {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 a:link {
@@ -35,15 +35,15 @@ footer {
 
 /* Header */
 header {
-  margin: 0 15% 0 15%;
+  margin: 0 18rem;
 }
 
 .header__items {
-  margin: 0px;
+  margin: 0;
   padding: 12px;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .header__logo {
@@ -52,13 +52,14 @@ header {
   color: #f9faf8;
 }
 
-.header__link {
+.header__link a {
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* Hero */
 .hero {
-  margin: 5rem 15% 5rem 15%;
+  margin: 5rem 18rem 5rem 18rem;
   display: flex;
   justify-content: space-between;
 }
@@ -80,20 +81,20 @@ header {
 }
 
 h1 {
-  margin: 0px;
+  margin: 0;
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
 
 .hero__text {
-  margin: 0px;
+  margin: 0;
   font-size: 18px;
   color: #e5e7eb;
 }
 
 .hero__btn {
-  border: 0px;
+  border: none;
 }
 
 .hero__img {
@@ -102,3 +103,63 @@ h1 {
 }
 
 /* Information Cards  */
+.info {
+  margin: 0 22rem 5rem 22rem;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 48px;
+}
+
+.info__fig {
+  margin: 0px;
+}
+
+.info__fig--img {
+  border: 4px solid;
+  border-radius: 18px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.info__fig--caption {
+  text-align: center;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/* Quote Section */
+.quote {
+  margin: 0;
+  background-color: #e5e7eb;
+}
+
+.quote__content {
+  margin: 5rem 22rem 5rem 22rem;
+}
+
+.quote__text {
+  text-align: justify;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote__autor {
+  font-size: 20px;
+  text-align: right;
+  font-weight: 900;
+}
+
